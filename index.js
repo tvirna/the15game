@@ -1,3 +1,5 @@
+'use strict';
+
 // Here we store the coordinates of the empty cell
 let emptyX = 3; // Initially the empty cell is at the bottom right
 let emptyY = 3;
