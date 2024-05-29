@@ -1,0 +1,22 @@
+.field {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 80px auto;
+  border: 5px solid darkslategray;
+  background-color: lightsalmon;
+}
+
+.cell {
+  position: absolute;
+  box-sizing: border-box;
+  width: 25%;
+  height: 25%;
+  border: 3px solid slategray;
+  border-radius: 20px;
+  background-color: peachpuff;
+  padding: 10px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: left 0.3s, top 0.3s;
+}
